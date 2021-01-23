@@ -4,6 +4,7 @@
   "description": "social media app built using mern stack",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +20,12 @@
   "homepage": "https://github.com/saiffmirza/social-media-app#readme",
   "dependencies": {
     "apollo-server": "^2.19.2",
+    "bcryptjs": "^2.4.3",
     "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
